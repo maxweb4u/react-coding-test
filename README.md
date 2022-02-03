@@ -1,5 +1,5 @@
 # ReactJS Test
-### In order to be considered for a Rails position, you must complete the following steps.
+### In order to be considered for a React position, you must complete the following steps.
 Note: This task should take no longer than 2 hours to complete.
 
 
