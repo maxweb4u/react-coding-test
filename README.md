@@ -8,7 +8,6 @@ This is a boilerplate for displaying price data using react, redux and react-rou
 
 Contains: 
 
-* a working example of a filterable table which you can play around with (look below).
 * ES6 - 7 Support with Babel
 * Redux dev tools to help you keep track of the app's state
 * Routing
@@ -25,13 +24,13 @@ Contains:
 
 ## Run the service
 0. Open a new bash shell
-0. cd streaming-service
+0. cd react-coding-test/streaming-service
 0. ```npm install```
 0. ```npm run start```
 
 ## Run the app
 1. Open a new bash shell
-1. cd app
+1. cd react-coding-test
 1. ```npm install```
 1. ```npm run start```
 
@@ -40,7 +39,7 @@ Once running, if you want to hide the redux dev monitor: ```CTRL+H``` or move it
 
 ## Run the tests
 2. Open a new bash shell
-2. cd app
+2. cd react-coding-test
 2. ```npm run test_watch```
 
 ## Requirements
