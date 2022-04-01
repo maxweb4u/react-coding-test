@@ -48,13 +48,13 @@ We need you to implement a solution to display some price ticker data on the UI 
 
 There are four parts to this application that need implementing, we suggest that the candidate time box their efforts in each section.
 
-1. UI:
+1. Service interaction:
+    The application contains local streaming service to run on your machine that will publish prices for a given ticker at an interval of 0.5 seconds. We want to be able see these prices rendered on the ui. Although the service api exists it is not connected yet.
+2. Data:
+    We need to be able convey the service api results to the UI
+3. UI:
     To render UI results you need to implement components, reducers and actions using thunk middleware.
     Any additional visual effects to highlight positive or negative changes in the prices would be a bonus.
-2. Service interaction:
-    The interviewer will setup a local streaming service () to run on your machine that will publish prices for a given ticker at an interval of 0.5 seconds. We want to be able see these prices rendered on the ui. Although the service api exists it is not connected yet.
-3. Data:
-    We need to be able convey the service api results to the UI
 4. Testing:
     We need test coverage for any code implemented. Chai, Sinon, Mocha, Enzyme are already included as libraries, however feel free to implement any tests in your choice of framework. The existing tests should be running according to the instructions above.
 
