@@ -23,24 +23,24 @@ Contains:
 * If you're on a windows platform, you will need to run the following command: ``npm install --global --production windows-build-tools`` (using a privileged command prompt)
 
 ## Run the service
-0. Open a new bash shell
-0. cd react-coding-test/streaming-service
-0. ```npm install```
-0. ```npm run start```
+1. Open a new bash shell
+2. cd react-coding-test/streaming-service
+3. ```npm install```
+4. ```npm run start```
 
 ## Run the app
 1. Open a new bash shell
-1. cd react-coding-test
-1. ```npm install```
-1. ```npm run start```
+2. cd react-coding-test
+3. ```npm install```
+4. ```npm run start```
 
 Once running, if you want to hide the redux dev monitor: ```CTRL+H``` or move it with ```CTRL+Y```
 
 
 ## Run the tests
-2. Open a new bash shell
+1. Open a new bash shell
 2. cd react-coding-test
-2. ```npm run test_watch```
+3. ```npm run test_watch```
 
 ## Requirements
 
