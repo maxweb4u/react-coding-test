@@ -11,7 +11,7 @@ module.exports = {
     entry: [
         // Polyfills go here too, like babel-polyfill or whatwg-fetch
         'babel-polyfill',
-        path.join(__dirname, 'app/index.js')
+        path.join(__dirname, 'app/StockService.Spec.js')
     ],
     // Where you want the output to go
     output: {

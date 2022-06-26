@@ -1,2 +1,5 @@
 --compilers js:babel-register
 --require babel-polyfill
+--timeout 10000
+--require ignore-styles
+-r jsdom-global/register

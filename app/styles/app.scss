@@ -1,0 +1,44 @@
+.root {
+  font-size: 12px;
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  input {
+    border: 1px solid #888;
+    color: #888;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 44px;
+  }
+
+  button {
+    box-sizing: content-box;
+    background-color: #499d36;
+    height: 44px;
+    color: #fff;
+    padding: 0px 15px;
+    border-radius: 5px;
+    outline: 0;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: ease background-color 250ms;
+    box-shadow: none;
+    &:hover {
+      background-color: #6ab559;
+    }
+    &.red {
+      background-color: #eb1a1a;
+      &:hover {
+        background-color: #eb1a1a;
+      }
+    }
+  }
+}
